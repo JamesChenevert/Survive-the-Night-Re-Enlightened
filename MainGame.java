@@ -222,7 +222,7 @@ public class MainGame {
                 return;
             }
             System.out.println("Narrator: Now what will you do you have the option to watch TV or just go to sleep and fast forward to the night section.");
-            System.out.println("Choices: \nWatch TV \nGo to sleep");
+            System.out.println("Choices: \nWatch TV \nGo to sleep\n");
             String firstChoice = game.nextLine();
             if (firstChoice.equalsIgnoreCase("watch tv")){
                 try {
@@ -231,7 +231,7 @@ public class MainGame {
                     Thread.currentThread().interrupt();
                     return;
                 }
-                System.out.print("Narrator: You go to the couch and turn on the TV and start to watch some shows.");
+                System.out.print("\nNarrator: You go to the couch and turn on the TV and start to watch some shows.");
                 try {
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {
@@ -253,6 +253,28 @@ public class MainGame {
                     return;
                 }
                 System.out.println("Narrator: After you get done eating you go to your room and pass out until your night shift.");
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.println("A few hours pass...");
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.println("Narrator: You wake up, get your night guard uniform on and you head out to work.");
+            } else if (firstChoice.equalsIgnoreCase("Go to sleep")) {
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.println("Narrator: You go to your room and pass out until your night shift.");
                 try {
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {
