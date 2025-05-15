@@ -1,0 +1,3 @@
+# Survive the Night: Re-Enlightened
+This is the brand new Survive the Night game it is no longer about the lore of FNAF but it's just a spin-off a story with a new beginning and a fatal ending but can you help to change the future? 
+It all started when a man who lost everything and applied for a job at the local Pizzeria in his town he arrived at his job in time every day but one day... he died... and in death he was stuck reliving the same days at his job before and when his death has arrived. But this time something has changed and only you can change his past now. 
