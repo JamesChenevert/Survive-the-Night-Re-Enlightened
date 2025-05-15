@@ -7,7 +7,7 @@ public class MainGame {
         Scanner game = new Scanner(System.in);
         // make the game fall asleep for as many milliseconds
         try {
-            // to sleep 10 seconds
+            // to sleep 3 seconds
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             // recommended because catching InterruptedException clears interrupt flag
@@ -109,7 +109,7 @@ public class MainGame {
                 Thread.currentThread().interrupt();
                 return;
             }
-            System.out.println("You decide to go get dressed and go to the pizzeria.");
+            System.out.println("Narrator: You decide to go get dressed and go to the pizzeria.");
             try {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
@@ -173,6 +173,101 @@ public class MainGame {
                 return;
             }
             System.out.println("You: Yes sir.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Mark: Oh and here's your uniform.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Mark hands you your uniform.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("You: Thanks.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Note: There will be multiple endings so do what you need to get these endings.");
+            try {
+                Thread.sleep(2500);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: You head out the door and head home.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: You enter your house and close the door.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: Now what will you do you have the option to watch TV or just go to sleep and fast forward to the night section.");
+            System.out.println("Choices: \nWatch TV \nGo to sleep");
+            String firstChoice = game.nextLine();
+            if (firstChoice.equalsIgnoreCase("watch tv")){
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.print("Narrator: You go to the couch and turn on the TV and start to watch some shows.");
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.println("Narrator: Some time pass and you get hungry.");
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.println("Narrator: You get up and enter the kitchen and grab something to eat.");
+                try {
+                    Thread.sleep(2700);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.println("Narrator: After you get done eating you go to your room and pass out until your night shift.");
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.println("A few hours pass...");
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.println("Narrator: You wake up, get your night guard uniform on and you head out to work.");
+            }
         }
     }
 }
