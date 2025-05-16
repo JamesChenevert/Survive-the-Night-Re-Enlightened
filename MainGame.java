@@ -274,7 +274,7 @@ public class MainGame {
                     Thread.currentThread().interrupt();
                     return;
                 }
-                System.out.println("Narrator: You go to your room and pass out until your night shift.");
+                System.out.println("\nNarrator: You go to your room and pass out until your night shift.");
                 try {
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {
@@ -290,6 +290,27 @@ public class MainGame {
                 }
                 System.out.println("Narrator: You wake up, get your night guard uniform on and you head out to work.");
             }
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: You walk up to the building, it's lights are all off except for the sign and the exterior lights.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: You walk up to the doors and open them and you enter the building and close the doors behind you.");
+            try {
+                Thread.sleep(3500);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("test");
         }
     }
 }
