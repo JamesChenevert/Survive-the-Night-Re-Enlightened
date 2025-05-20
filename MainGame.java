@@ -123,7 +123,35 @@ public class MainGame {
                 Thread.currentThread().interrupt();
                 return;
             }
-            System.out.println("Narrator: You arrive at the pizzeria and approach the door and take your first step in the pizzeria in a while.");
+            System.out.println("Narrator: You see two windows that display animatronics on both sides of the building.");
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: On the left the windows showcase Bonnie and Foxy.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: On the right the windows showcase Freddy and Chica.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: Above the front entrance is a roof and it showcases the animatronics to you again giving you a grand welcoming.");
+            try {
+                Thread.sleep(4500);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: You approach the door and take your first step in the pizzeria in a while.");
             try {
                 Thread.sleep(2250);
             } catch (InterruptedException e) {
@@ -200,7 +228,7 @@ public class MainGame {
                 Thread.currentThread().interrupt();
                 return;
             }
-            System.out.println("Note: There will be multiple endings so do what you need to get these endings.");
+            System.out.println("Guide: There will be multiple endings so do what you need to get these endings.");
             try {
                 Thread.sleep(2500);
             } catch (InterruptedException e) {
@@ -306,6 +334,97 @@ public class MainGame {
             System.out.println("Narrator: You walk up to the doors and open them and you enter the building and close the doors behind you.");
             try {
                 Thread.sleep(3500);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: The building is very dark and the only light you can see is from the light outside.");
+            try {
+                Thread.sleep(2600);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: The light from outside shines on the front desk with a note, keys and a flashlight.");
+            try {
+                Thread.sleep(2450);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: You approach the desk and pick up the keys and flashlight.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: You turn on the flashlight and start to read the note.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Note: Hey David, I forgot to give you, your set of keys to the place so when you are done reading this note lock the doors thanks.");
+            try {
+                Thread.sleep(3500);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Note: So the animatronics will be active mainly Bonnie and maybe Chica tonight.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Note: Before you get on my case about how would I know and why do they move around.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Note: I had some nightguards before you and they told me they moved around when they came in the building and entered the office and I also became a night guard on their days off to see what they were talking about and they do move.");
+            try {
+                Thread.sleep(4100);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Note: From what I gathered the reason why they move is probably from the security modes on them the Faz Bear Entertainment put on them and to also not ave the joints lock when performing.");
+            try {
+                Thread.sleep(4955);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Note: Now I'm gonna let you get to your office now, and to tell you it's on the opposite side of the pizzeria.");
+            try {
+                Thread.sleep(2500);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Note: It has a big doorway that is in front of your desk and leads into parts & services.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Note: On the left is a hallway with a door at the end and the employee's lounge beyond the door.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Note: Alright I will let you go now talk to you tomorrow.");
+            try {
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 return;
