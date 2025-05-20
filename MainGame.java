@@ -429,7 +429,21 @@ public class MainGame {
                 Thread.currentThread().interrupt();
                 return;
             }
-            System.out.println("test");
+            while() {
+                System.out.println("What will you do? \nArcade 1 \nArcade 2 \nParty Room 1 \nParty Room 2 \nParty Room 3 \nParty Room 4 \nDining Area \nKitchen \nLoading Dock \nParts & Service \nGo to Office");
+                String secChoice = game.nextLine();
+                if (secChoice.equalsIgnoreCase("Go to Office")){
+                    System.out.println("You decide to go to find your office already and ignore gathering your bearings of the place.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                } else if (secChoice.equalsIgnoreCase("")) {
+
+                }
+            }
         }
     }
 }
