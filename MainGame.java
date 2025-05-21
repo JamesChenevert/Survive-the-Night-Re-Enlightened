@@ -387,7 +387,7 @@ public class MainGame {
                 Thread.currentThread().interrupt();
                 return;
             }
-            System.out.println("Note: I had some nightguards before you and they told me they moved around when they came in the building and entered the office and I also became a night guard on their days off to see what they were talking about and they do move.");
+            System.out.println("Note: I had some nightguards before you and they told me they moved around when they came in the building and entered the office, \nI also became a night guard on their days off to see what they were talking about and they do move.");
             try {
                 Thread.sleep(4100);
             } catch (InterruptedException e) {
@@ -429,23 +429,139 @@ public class MainGame {
                 Thread.currentThread().interrupt();
                 return;
             }
-            System.out.println("What will you do? \nArcade 1 \nArcade 2 \nParty Room 1 \nParty Room 2 \nParty Room 3 \nParty Room 4 \nDining Area \nKitchen \nLoading Dock \nParts & Service \nGo to Office");
+            System.out.println("What will you do? \nArcade 1 \nArcade 2 \nParty Room 1 \nParty Room 2 \nParty Room 3 \nParty Room 4 \nDinning Area \nKitchen \nLoading Dock \nParts & Service \nGo to Office\n");
             String secChoice = game.nextLine();
-            while(secChoice.equals("Go to Office")) {
+            // make a boolean condition true so the thread.sleep will work in a loop
+            boolean condition = true;
+            // name the while loop so you can choose which one to break
+            // make a while loop
+            loopOne: while(condition) {
                 if (secChoice.equalsIgnoreCase("Arcade 1")){
-                    System.out.println("test");
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                         return;
                     }
+                    System.out.println("Narrator: You go into the arcade on your left.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Narrator: You see arcades ranging from ghost eater, space intruders, ect.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Narrator: All arcades are unplugged and off.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Where will you go next? \nEntrance \nArcade 2 \nParty Room 1 \nParty Room 2 \nParty Room 3 \nParty Room 4 \nDinning Area \nKitchen \nLoading Dock \nParts & Service \nGo to Office\n");
                 } else if (secChoice.equalsIgnoreCase("Arcade 2")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
                     System.out.println("test");
+                } else if (secChoice.equalsIgnoreCase("Party Room 1")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                } else if (secChoice.equalsIgnoreCase("Party Room 2")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                } else if (secChoice.equalsIgnoreCase("Party Room 3")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                } else if (secChoice.equalsIgnoreCase("Party Room 4")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                } else if (secChoice.equalsIgnoreCase("Dinning Area")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                } else if (secChoice.equalsIgnoreCase("Kitchen")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                } else if (secChoice.equalsIgnoreCase("Loading Dock")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                } else if (secChoice.equalsIgnoreCase("Parts & Service")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                } else if (secChoice.equalsIgnoreCase("Entrance")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                } else if (secChoice.equalsIgnoreCase("Go to Office")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nYou decide to go to find your office.");
+                    break loopOne;
                 }
-            }
-            if (secChoice.equalsIgnoreCase("Go to Office")){
-                System.out.println("You decide to go to find your office already and ignore gathering your bearings of the place.");
+                System.out.println("test");
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+
             }
         }
     }
