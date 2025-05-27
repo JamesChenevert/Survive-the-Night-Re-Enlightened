@@ -443,7 +443,7 @@ public class MainGame {
                         Thread.currentThread().interrupt();
                         return;
                     }
-                    System.out.println("Narrator: You go into the arcade on your left.");
+                    System.out.println("\nNarrator: You go into the arcade on your left.");
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
@@ -465,31 +465,18 @@ public class MainGame {
                         return;
                     }
                     System.out.println("Where will you go next? \nEntrance \nArcade 2 \nParty Room 1 \nParty Room 2 \nParty Room 3 \nParty Room 4 \nDinning Area \nKitchen \nLoading Dock \nParts & Service \nGo to Office\n");
-                } else if (secChoice.equalsIgnoreCase("Arcade 2")) {
+                    secChoice = game.nextLine();
+                }
+                if (secChoice.equalsIgnoreCase("Arcade 2")) {
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                         return;
                     }
-                    System.out.println("test");
-                } else if (secChoice.equalsIgnoreCase("Party Room 1")) {
-                    try {
-                        Thread.sleep(2000);
-                    } catch (InterruptedException e) {
-                        Thread.currentThread().interrupt();
-                        return;
-                    }
-
-                } else if (secChoice.equalsIgnoreCase("Party Room 2")) {
-                    try {
-                        Thread.sleep(2000);
-                    } catch (InterruptedException e) {
-                        Thread.currentThread().interrupt();
-                        return;
-                    }
-
-                } else if (secChoice.equalsIgnoreCase("Party Room 3")) {
+                    System.out.println("test 1");
+                }
+                if (secChoice.equalsIgnoreCase("Party Room 1")) {
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
@@ -497,7 +484,8 @@ public class MainGame {
                         return;
                     }
 
-                } else if (secChoice.equalsIgnoreCase("Party Room 4")) {
+                }
+                if (secChoice.equalsIgnoreCase("Party Room 2")) {
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
@@ -505,7 +493,8 @@ public class MainGame {
                         return;
                     }
 
-                } else if (secChoice.equalsIgnoreCase("Dinning Area")) {
+                }
+                if (secChoice.equalsIgnoreCase("Party Room 3")) {
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
@@ -513,7 +502,8 @@ public class MainGame {
                         return;
                     }
 
-                } else if (secChoice.equalsIgnoreCase("Kitchen")) {
+                }
+                if (secChoice.equalsIgnoreCase("Party Room 4")) {
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
@@ -521,7 +511,8 @@ public class MainGame {
                         return;
                     }
 
-                } else if (secChoice.equalsIgnoreCase("Loading Dock")) {
+                }
+                if (secChoice.equalsIgnoreCase("Dinning Area")) {
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
@@ -529,7 +520,8 @@ public class MainGame {
                         return;
                     }
 
-                } else if (secChoice.equalsIgnoreCase("Parts & Service")) {
+                }
+                if (secChoice.equalsIgnoreCase("Kitchen")) {
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
@@ -537,14 +529,34 @@ public class MainGame {
                         return;
                     }
 
-                } else if (secChoice.equalsIgnoreCase("Entrance")) {
+                }
+                if (secChoice.equalsIgnoreCase("Loading Dock")) {
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                         return;
                     }
-                } else if (secChoice.equalsIgnoreCase("Go to Office")) {
+
+                }
+                if (secChoice.equalsIgnoreCase("Parts & Service")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                }
+                if (secChoice.equalsIgnoreCase("Entrance")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                }
+                if (secChoice.equalsIgnoreCase("Go to Office")) {
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
@@ -554,14 +566,14 @@ public class MainGame {
                     System.out.println("\nYou decide to go to find your office.");
                     break loopOne;
                 }
-                System.out.println("test");
+                System.out.println("\ntest");
                 try {
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                     return;
                 }
-
+                System.out.println("test 2");
             }
         }
     }
