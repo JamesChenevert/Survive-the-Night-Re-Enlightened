@@ -443,7 +443,7 @@ public class MainGame {
                         Thread.currentThread().interrupt();
                         return;
                     }
-                    System.out.println("\nNarrator: You go into the arcade on your left.");
+                    System.out.println("\nNarrator: You go into the first arcade.");
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
@@ -474,7 +474,22 @@ public class MainGame {
                         Thread.currentThread().interrupt();
                         return;
                     }
-                    System.out.println("test 1");
+                    System.out.println("Narrator: You go to the second arcade and look around.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Narrator: All arcades are off except for one.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Where will you go next? \nEntrance \nArcade 1 \nParty Room 1 \nParty Room 2 \nParty Room 3 \nParty Room 4 \nDinning Area \nKitchen \nLoading Dock \nParts & Service \nGo to Office \nGo to Arcade Machine\n");
+                    secChoice = game.nextLine();
                 }
                 if (secChoice.equalsIgnoreCase("Party Room 1")) {
                     try {
@@ -483,7 +498,22 @@ public class MainGame {
                         Thread.currentThread().interrupt();
                         return;
                     }
-
+                    System.out.println("Narrator: You enter party room 1 all of the chairs are neatly stacked on the table with the table cloth draping over the edges of the tables.");
+                    try {
+                        Thread.sleep(3570);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Narrator: There is nothing here for you.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Where will you go next? \nEntrance \nArcade 1 \nArcade 2 \nParty Room 2 \nParty Room 3 \nParty Room 4 \nDinning Area \nKitchen \nLoading Dock \nParts & Service \nGo to Office \nGo to Arcade Machine\n");
+                    secChoice = game.nextLine();
                 }
                 if (secChoice.equalsIgnoreCase("Party Room 2")) {
                     try {
@@ -493,6 +523,14 @@ public class MainGame {
                         return;
                     }
 
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Where will you go next? \nEntrance \nArcade 1 \nArcade 2 \nParty Room 1 \nParty Room 3 \nParty Room 4 \nDinning Area \nKitchen \nLoading Dock \nParts & Service \nGo to Office \nGo to Arcade Machine\n");
+                    secChoice = game.nextLine();
                 }
                 if (secChoice.equalsIgnoreCase("Party Room 3")) {
                     try {
@@ -502,6 +540,14 @@ public class MainGame {
                         return;
                     }
 
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Where will you go next? \nEntrance \nArcade 1 \nArcade 2 \nParty Room 1 \nParty Room 2 \nParty Room 4 \nDinning Area \nKitchen \nLoading Dock \nParts & Service \nGo to Office \nGo to Arcade Machine\n");
+                    secChoice = game.nextLine();
                 }
                 if (secChoice.equalsIgnoreCase("Party Room 4")) {
                     try {
@@ -511,6 +557,14 @@ public class MainGame {
                         return;
                     }
 
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Where will you go next? \nEntrance \nArcade 1 \nArcade 2 \nParty Room 1 \nParty Room 2 \nParty Room 3 \nDinning Area \nKitchen \nLoading Dock \nParts & Service \nGo to Office \nGo to Arcade Machine\n");
+                    secChoice = game.nextLine();
                 }
                 if (secChoice.equalsIgnoreCase("Dinning Area")) {
                     try {
@@ -520,6 +574,14 @@ public class MainGame {
                         return;
                     }
 
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Where will you go next? \nEntrance \nArcade 1 \nArcade 2 \nParty Room 1 \nParty Room 2 \nParty Room 3 \nParty Room 4 \nKitchen \nLoading Dock \nParts & Service \nGo to Office \nGo to Arcade Machine\n");
+                    secChoice = game.nextLine();
                 }
                 if (secChoice.equalsIgnoreCase("Kitchen")) {
                     try {
@@ -529,6 +591,14 @@ public class MainGame {
                         return;
                     }
 
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Where will you go next? \nEntrance \nArcade 1 \nArcade 2 \nParty Room 1 \nParty Room 2 \nParty Room 3 \nParty Room 4 \nDinning Area \nLoading Dock \nParts & Service \nGo to Office \nGo to Arcade Machine\n");
+                    secChoice = game.nextLine();
                 }
                 if (secChoice.equalsIgnoreCase("Loading Dock")) {
                     try {
@@ -538,6 +608,14 @@ public class MainGame {
                         return;
                     }
 
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Where will you go next? \nEntrance \nArcade 1 \nArcade 2 \nParty Room 1 \nParty Room 2 \nParty Room 3 \nParty Room 4 \nDinning Area \nKitchen \nParts & Service \nGo to Office \nGo to Arcade Machine\n");
+                    secChoice = game.nextLine();
                 }
                 if (secChoice.equalsIgnoreCase("Parts & Service")) {
                     try {
@@ -547,6 +625,14 @@ public class MainGame {
                         return;
                     }
 
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Where will you go next? \nEntrance \nArcade 1 \nArcade 2 \nParty Room 1 \nParty Room 2 \nParty Room 3 \nParty Room 4 \nDinning Area \nKitchen \nLoading Dock \nGo to Office \nGo to Arcade Machine\n");
+                    secChoice = game.nextLine();
                 }
                 if (secChoice.equalsIgnoreCase("Entrance")) {
                     try {
@@ -555,6 +641,15 @@ public class MainGame {
                         Thread.currentThread().interrupt();
                         return;
                     }
+
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("What will you do? \nArcade 1 \nArcade 2 \nParty Room 1 \nParty Room 2 \nParty Room 3 \nParty Room 4 \nDinning Area \nKitchen \nLoading Dock \nParts & Service \nGo to Office\n");
+                    secChoice = game.nextLine();
                 }
                 if (secChoice.equalsIgnoreCase("Go to Office")) {
                     try {
