@@ -522,7 +522,14 @@ public class MainGame {
                         Thread.currentThread().interrupt();
                         return;
                     }
-
+                    System.out.println("Narrator: You enter party room 2  all of the chairs are neatly stacked on the table with the table cloth draping over the edges of the tables.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Narrator: There is nothing here for you.");
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
