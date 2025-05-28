@@ -493,6 +493,56 @@ public class MainGame {
                     secChoice = game.nextLine();
                 }
 
+                if (secChoice.equalsIgnoreCase("Go Back")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nNarrator: You leave the Arcade alone.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Narrator: It's probably better to not play the arcade that you didn't pay to play with either way.");
+                    try {
+                        Thread.sleep(4200);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("What will you do next? \nEntrance \nParty Room 2 \nGo to Arcade Machine\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Go to Arcade Machine")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nNarrator: You go to the arcade machine.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Narrator: It seems like it's waiting for someone to play.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("What will you do next? \nGo Back \nPlay Arcade Game\n");
+                    secChoice = game.nextLine();
+                }
+
                 if (secChoice.equalsIgnoreCase("Party Room 1")) {
                     try {
                         Thread.sleep(2000);
