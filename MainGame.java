@@ -543,6 +543,703 @@ public class MainGame {
                     secChoice = game.nextLine();
                 }
 
+                if (secChoice.equalsIgnoreCase("Play Arcade Game")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: Welcome to Foxy Runner.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Game: Press play to start.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("What will you do next? \nGo Back \nPlay\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Play")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: Glad to see you actually played the game.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Game: So Foxy needs to get to the children at the end of 10 rooms there is only 3 levels good luck.");
+                    try {
+                        Thread.sleep(3570);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Run to the children. \nRun 1\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 1")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 1");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 2\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 2")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 2");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 3\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 3")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 3");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 4\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 4")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 4");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 5\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 5")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 5");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 6\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 6")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 6");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 7\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 7")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 7");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 8\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 8")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 8");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 9\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 9")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 9");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 10\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 10")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 10");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Game: Congratulations you made it the the children");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Game: Round 2");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Run to the children. \nRun 11\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 11")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 11");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 12\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 12")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 12");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 13\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 13")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 13");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 14\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 14")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 14");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 15\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 15")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 15");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 16 \nFlip Lever 2\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 16")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 16");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 17\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 17")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 17");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 18\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 18")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 18");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 19\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 19")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 19");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 20\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 20")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 20");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Game: Congratulations you made it the the children");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Game: Round 3");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Run to the children. \nRun 21\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 21")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 21");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 22\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 22")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 22");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 23\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 24")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 24");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 25\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 25")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 25");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 26\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 26")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 26");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 27\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 27")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 27");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 28\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 28")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 28");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 29\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 29")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 29");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+
+                    System.out.println("Run to the children. \nRun 30\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Run 30")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You run forward you are now in room 30");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Game: Congratulations you made it the the children");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Game: You have come across a door that leads into an office.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("What will you do? \nLeave Arcade \nEnter office\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Leave Arcade")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nNarrator: You leave the arcade.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Where will you go next? \nEntrance \nParty Room 2\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Enter Office")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nGame: You enter the office and you see a security guard.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Game: You approach him and bite his head killing him.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Narrator: You leave the arcade game.");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Narrator: Upon leaving you see the screen flash a bright light saying \"THANK YOU FOR SAVING ME.\"");
+                    try {
+                        Thread.sleep(3570);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Where will you go next? \nEntrance \nParty Room 2\n");
+                    secChoice = game.nextLine();
+                }
+
                 if (secChoice.equalsIgnoreCase("Party Room 1")) {
                     try {
                         Thread.sleep(2000);
@@ -1111,6 +1808,24 @@ public class MainGame {
                         return;
                     }
                     System.out.println("Where will you go next? \nLoading Dock Hall \nEmployee Lounge\n");
+                    secChoice = game.nextLine();
+                }
+
+                if (secChoice.equalsIgnoreCase("Employee Lounge")) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("\nNarrator: You enter the Employee lounge and see it is dirty and there are left over pizza boxes left out.");
+                    try {
+                        Thread.sleep(3570);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    System.out.println("Where will you go next? \nOffice Hall \nEmployee Locker Room\n");
                     secChoice = game.nextLine();
                 }
 
