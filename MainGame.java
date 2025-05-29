@@ -1064,24 +1064,6 @@ public class MainGame {
                     secChoice = game.nextLine();
                 }
 
-                if (secChoice.equalsIgnoreCase("Employee Lounge")) {
-                    try {
-                        Thread.sleep(2000);
-                    } catch (InterruptedException e) {
-                        Thread.currentThread().interrupt();
-                        return;
-                    }
-                    System.out.println("\nNarrator: You enter the Employee lounge and see it is dirty and there are left over pizza boxes left out.");
-                    try {
-                        Thread.sleep(3570);
-                    } catch (InterruptedException e) {
-                        Thread.currentThread().interrupt();
-                        return;
-                    }
-                    System.out.println("Where will you go next? \nOffice Hall \nEmployee Locker Room\n");
-                    secChoice = game.nextLine();
-                }
-
                 if (secChoice.equalsIgnoreCase("Employee Locker Room")) {
                     try {
                         Thread.sleep(2000);
