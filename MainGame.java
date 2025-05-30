@@ -2080,6 +2080,27 @@ public class MainGame {
                     return;
                 }
                 System.out.println("\nNarrator: You close the Office door and Bonnie bangs on the door");
+                try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: You check the clock it is 3AM.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: You then go back to check on the camera's and see that chica is gone.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("");
             }
         }
     }
