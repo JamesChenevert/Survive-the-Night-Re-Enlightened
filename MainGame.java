@@ -1976,7 +1976,42 @@ public class MainGame {
                     break loopOne;
                 }
             }
-            System.out.println("Test");
+            System.out.println("Narrator: You are scanning through the cameras looking for anything suspicious");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: Upon checking the dinning area camera you see bonnie is no longer on the stage.");
+            try {
+                Thread.sleep(2500);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: But just looking at the stage not moving but occasionally twitching his head.");
+            try {
+                Thread.sleep(2500);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: He then moves and the camera goes static.");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: You go to the other camera's to find Bonnie eventually you see Bonnie is in the Loading Dock hall");
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: He seems to be approaching the Loading Dock doors, he opens them and goes inside.");
         }
     }
 }
