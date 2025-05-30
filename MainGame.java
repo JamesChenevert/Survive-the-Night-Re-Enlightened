@@ -266,7 +266,7 @@ public class MainGame {
                     Thread.currentThread().interrupt();
                     return;
                 }
-                System.out.println("Narrator: Some time pass and you get hungry.");
+                System.out.println("\nNarrator: Some time pass and you get hungry.");
                 try {
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {
@@ -2012,6 +2012,75 @@ public class MainGame {
                 return;
             }
             System.out.println("Narrator: He seems to be approaching the Loading Dock doors, he opens them and goes inside.");
+            try {
+                Thread.sleep(2500);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: Bonnie continues to progress towards you, getting closer and closer every second that passes.");
+            try {
+                Thread.sleep(2750);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: You decide to get out of the camera's and look over to your left and you see the door is opening at the end of the hall.");
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("Narrator: Inside the Employees lounge you can see Bonnie enter through the door and slowly approach your office door.");
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
+            }
+            System.out.println("What will you do? \nClose Office Door \nKeep Door Open\n");
+            String thirdChoice = game.nextLine();
+            if(thirdChoice.equalsIgnoreCase("Keep Door Open")) {
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.println("\nNarrator: You decide to keep the door open and Bonnie comes into the office and grabs you by the neck.");
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.println("Bonnie: Seems like we have an intruder on the premises.");
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.println("Narrator: Bonnie takes you to an empty suit in Parts & Service and he stuffs you inside the suit and you start to get crushed by the endoskeleton and outer suit casing and you die.");
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.println("GAME OVER");
+                return;
+            }
+            if (thirdChoice.equalsIgnoreCase("Close Office Door")) {
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
+                }
+                System.out.println("\nNarrator: You close the Office door and Bonnie bangs on the door");
+            }
         }
     }
 }
